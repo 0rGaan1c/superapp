@@ -1,0 +1,76 @@
+.register-container {
+  width: 50%;
+  background-color: black;
+  padding: 20px 0;
+}
+
+.register-container .upper-part {
+  font-family: "DM Sans", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.register-container .upper-part > h2 {
+  font-family: "Single Day", cursive;
+  color: #72db73;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.register-container .upper-part > p {
+  font-size: 14px;
+}
+
+.register-container .upper-part > div {
+  margin: 20px 0 30px 0;
+}
+
+.register-container .form {
+  text-align: center;
+}
+
+.register-container .checkbox-container {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.checkbox-container .error {
+  text-align: left;
+  font-size: 12px;
+  color: #f70d1a;
+  padding: 4px 0 0 2px;
+}
+
+.register-container .form label {
+  font-size: 13px;
+  color: #7c7c7c;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+.register-container .form button {
+  background: #72db73;
+  border-radius: 28px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 8px 0;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.register-container .bottom-part {
+  color: #7c7c7c;
+  font-size: 12px;
+  text-align: left;
+}
+.register-container .bottom-part p {
+  margin: 20px 0;
+}
+
+.register-container .bottom-part p > span {
+  color: #72db73;
+}

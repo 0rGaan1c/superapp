@@ -1,0 +1,32 @@
+.left-banner {
+  width: 50%;
+  background-image: url("../../assets/login_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.left-banner .have-account {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 80px;
+  margin-left: 50px;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.left-banner .have-account > div {
+  background-color: #72db73;
+  border-radius: 33px;
+  font-size: 14px;
+  padding: 5px 20px;
+  font-weight: 500;
+}
+
+.left-banner > h1 {
+  margin-left: 50px;
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  font-size: 40px;
+}
