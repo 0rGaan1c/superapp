@@ -63,14 +63,14 @@ const RegisterForm = () => {
         mobile,
       })
     );
-    navigate("/genre");
+    navigate("/select-category");
   };
 
   return (
     <div className="register-container">
       <div style={{ width: "46%", margin: "auto" }}>
         <div className="upper-part">
-          <h2>Super app</h2>
+          <h2 className="super-app">Super app</h2>
           <p>Create your new account</p>
           <div>
             Email <span style={{ color: "#72db73" }}>|</span> Gmail
